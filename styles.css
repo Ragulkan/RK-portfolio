@@ -338,3 +338,148 @@
   color: white;
 
 }
+@media only screen and (max-width:600px)
+{
+  .header{
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+   border-bottom-width:1px ;
+   border-bottom-style:solid;
+   border-bottom-color:rgb(231, 231, 231) ;
+   z-index: 100;
+  }
+  .profile-picture{
+    width: 40px;
+    position: absolute;
+    top: 3px;
+    left: 8px;
+    border-radius: 25px;
+    z-index: 5;
+  }
+  .home{ 
+    position: absolute;
+    left:70px;
+    top:13px;
+    color: rgb(6, 6, 0);
+    font-family: arial;
+    font-size: 20px;
+    
+  }
+  .about{
+    position: absolute;
+    left:150px;
+    top:13px;
+    color: rgb(6, 6, 0);
+    font-family: arial;
+    font-size: 20px;
+    
+  }
+  .skills{
+    position: absolute;
+    left:240px;
+    top:13px;
+    color: rgb(6, 6, 0);
+    font-family: arial;
+    font-size: 20px;
+    
+  }
+  .hamburger-menu{
+    height: 24px;
+    position: absolute;
+    top:13px;
+    left: 330px;
+    
+  }
+  .my-image{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+  }
+  .image-html{
+    position: absolute;
+    top: 70px;
+    left: 50px;
+  }
+  .hello{
+    color: yellow;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 30px;
+    top: 310px;
+  }
+
+  .content{
+    position: absolute;
+    top:400px;
+    left:35px;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+  }
+  .whatsapp{
+    width: 40px;
+    position: absolute;
+    top:480px;
+    left: 70px;
+    
+  }
+  .instagram{
+    width: 40px;
+    position: absolute;
+    top:480px;
+    left: 150px;
+    
+  }
+  .linkdin{
+    width: 30px;
+    position: absolute;
+    top:485px;
+    left: 230px;
+    
+  }
+  .mail-home{
+    width: 30px;
+    position: absolute;
+    top: 530px;
+    left: 20px;
+   
+    
+  }
+  .mail-idhome{
+    color:white;
+    font-size: 15px;
+    font-family: Arial, Helvetica;
+    position: absolute;
+    top: 538px;
+    left: 60px;
+  }
+  .call-home{
+    width: 30px;
+    position: absolute;
+    top: 580px;
+    left: 20px;
+   
+    
+  }
+  .call-numberhome{
+    color:white;
+    font-size: 15px;
+    font-family: Arial, Helvetica;
+    position: absolute;
+    top: 588px;
+    left: 60px;
+  }
+
+
+  }
+
+  
+
